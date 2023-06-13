@@ -1,0 +1,89 @@
+body {
+    background: #eee;
+    margin-top: 20px;
+}
+
+.card.card-white {
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-shadow: 0 0.05rem 0.01rem rgba(75, 75, 90, 0.075);
+    padding: 25px;
+}
+
+.avatar-holder {
+    border: 1px solid #9442ff;
+    display: inline-block;
+    border-radius: 50%;
+    width: 128px;
+    height: 128px;
+    margin-bottom: 20px;
+}
+
+
+.grid-margin {
+    margin-bottom: 2rem;
+}
+
+.user-profile-card {
+    text-align: center;
+}
+
+.profile-timeline ul li .timeline-item-header {
+    width: 100%;
+    overflow: hidden;
+}
+
+.profile-timeline ul li .timeline-item-header img {
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.profile-timeline ul li .timeline-item-header p {
+    margin: 0;
+    color: #000;
+    font-weight: 500;
+}
+
+.profile-timeline ul li .timeline-item-header p span {
+    margin: 0;
+    color: #8e8e8e;
+    font-weight: normal;
+}
+
+.profile-timeline ul li .timeline-item-header small {
+    margin: 0;
+    color: #8e8e8e;
+}
+
+.profile-timeline ul li .timeline-item-post {
+    padding: 20px 0 0 0;
+    position: relative;
+}
+
+.profile-timeline ul li .timeline-item-post>img {
+    width: 100%;
+}
+
+.post-options {
+    overflow: hidden;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.post-options a {
+    display: block;
+    margin-top: 5px;
+    margin-right: 20px;
+    float: left;
+    color: #2b2b2b;
+    text-decoration: none;
+    font-size: 16px !important;
+}
+
+.post-options a:hover {
+    color: #5369f8;
+}

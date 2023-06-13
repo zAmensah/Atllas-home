@@ -1,0 +1,13 @@
+.agents {
+  display: flex;
+  justify-content: center;
+}
+
+.no-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: lightgray;
+  height: calc(30vh - 98px);
+}
